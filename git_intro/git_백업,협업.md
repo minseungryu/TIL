@@ -1,10 +1,9 @@
-# git 백업, 협업
+# git에서 백업, 협업하기
 
-- Local Repository =========>> **[Remote Repository]** =========>> Local2
+- Local Repository <--(push/pull)---> **Remote Repository** 
+- **Remote Repository** --(clone)---> Local Repository2
 
-​										**push/pull**	      	(Git Hosting)    		**clone**
-
-- Git Hosting : gitlab, github..다양함
+> Git Hosting : 원격저장소를 제공하는 서비스로, gitlab, github 등 다양한 종류가 있음
 
 
 
@@ -14,8 +13,9 @@
 
 - **github에 원격저장소를 생성**
   - 원격저장소 이름 : 지역저장소의 폴더명과 동일하게 붙이는 경우가 많음
+  - 예 : TIL (today I learned)
 - **지역저장소와 생성한 원격저장소 연결**
-  1. `git remote add origin (원격저장소 주소; HTTPS)` 
+  1. `git remote add origin [원격저장소 주소; HTTPS]` 
   2. github 아이디와 비밀번호 입력
 
 - 결과보기 : `git remote -v`
