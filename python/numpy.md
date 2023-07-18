@@ -37,6 +37,7 @@ a3 = np.array([[[1, 2],
 
 
 
+
 ### AR.shape
 
 - 행렬의 크기 호출 : `AR.shape`
