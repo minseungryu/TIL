@@ -59,11 +59,11 @@ Class DjangoModel(models.Model):
 
 ### View
 
-사용자의 요청을 받아 처리하는 웹 사이트의 로직을 가지는 코드
+✓ 사용자의 요청을 받아 처리하는 웹 사이트의 로직을 가지는 코드
 
-파이썬의 함수(function)을 사용함
+✓ 파이썬의 함수(function)을 사용함
 
-[views.py](http://views.py/)
+✓ [views.py](http://views.py/)
 
 ```python
 def django_view(request):
@@ -82,6 +82,7 @@ def django_view(request):
 
 
 ------
+
 
 ### models 데이터 타입
 
