@@ -24,6 +24,8 @@
 - MTV 패턴(Model-Template-View) ⇒ MVC 패턴이라고도 함
 - MVC의 Controller(**Model** : [`models.py`](http://models.py) → **Controller** [`views.py](<http://views.py>)`  → **View** `templates` )
 
+<img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/03/Django-Architecture-Diagram.jpg" alt="django flow" style="zoom:50%; float:left" />
+
 
 
 ### Model
